@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+main {
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box {
+    width: 250px;
+    min-height: 200px;
+    border: 2px solid #f2f2f2;
+    margin: auto;
+    text-align: initial;
+    overflow: hidden;
+    padding: 20px;
+    background-color: #f2f2f2;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+    transition: all 0.2s ease-in-out;
+}
+
+#box #valueInput {
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin: auto;
+    font-size: 1.5rem;
+    box-shadow: 0 -4px -6px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease-in-out reverse;
+    border-radius: 6px;
+
+}
+
+#buttonBox {
+    margin: 40px auto 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-auto-rows: 35px;
+    gap: 15px;
+    width: 100%;
+    height: auto;
+}
+
+button {
+    font-size: 1.4rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease-in-out;
+    border-radius: 6px;
+}
+
+.digit {
+    background-color: #fff;
+    color: #000;
+    border: none;
+
+}
+
+.nonDigit {
+    background-color: #000;
+    color: #f2f2f2;
+    border: none;
+}
+
+.rowspan {
+    grid-column: 3 / 5;
+    grid-row: 5 / 7;
+}
+
+.spancol {
+    grid-row: 4 / span 3;
+}
