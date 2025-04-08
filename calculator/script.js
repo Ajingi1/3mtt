@@ -12,13 +12,6 @@ const itemPoint = document.getElementById("itemPoint");
 
 // Arithmetic operator
 const operators = document.getElementsByClassName("operator");
-// const itemPlus = document.getElementById("itemPlus")
-// const itemmiMinus = document.getElementById("itemmiMinus")
-// const itemMultiplication = document.getElementById("itemMultiplication")
-// const itemDivition = document.getElementById("itemDivition")
-
-//  Equal sign
-// const itemEqual = document.getElementById("itemEqual")
 
 let temp = 0;
 let currentOperator = "";
