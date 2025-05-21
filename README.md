@@ -9,14 +9,17 @@ For the rest you can look into codes in the repository.
 ##
 
 **Mini2 Project** This is my second mini project.
+##
 ![It is one page project](images/simple-website-mini2.png)
 
 ##
 ##
 **Simple calculator With HMTL, CSS, JS** 
+##
 ![Simple Calculator](images/Simple-Calculator.png)
 
 ##
 ##
 **Number Counter With React**
+##
 ![Number Counter](images/Counter-1.png)
