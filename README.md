@@ -29,10 +29,8 @@ For the rest you can look into codes in the repository.
 ##
 # Movies Browser
 
-##
-##
+#
 The Movies Browser React app is structured into reusable components that each serve a specific function in the UI.
-###
 ##
 ## 🔍 Before Search
 ![Before Search](images/Before%20search.png)
